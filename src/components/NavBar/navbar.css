@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh 0;
+    /* background: ; */
+    font-family: 'Poppins';
+}
+
+a{
+    color: wheat;
+}
+
+h3{
+    color: white;
+}
+
+#listaItemsMenu{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 3rem;
+}
+
+.linhaDivisoriaNavBar{
+    background: #41d773;
+    width: 95%;
+    height: 2px;
+    border-radius: 50px;
+}
+
+#hamburger {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#hamburger div {
+    margin-bottom: 0.3rem;
+    background-color: white;
+    width: 30px;
+    height: 3px;
+}
