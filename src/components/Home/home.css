@@ -1,0 +1,36 @@
+#homeContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 88vh;
+}
+
+.blob{
+    /* overflow: hidden; */
+    width: 23vw;
+    min-width: 250px;
+    height: 40vh;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: linear-gradient(180deg, rgba(163,239,161,1) 15%, rgba(71,71,133,1) 100%);
+    opacity: 0.9;
+    animation: morph 10s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes morph{
+    0%, 100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;;
+    }
+    33%{
+        border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
+
+#pfp{
+    width: 100%
+}

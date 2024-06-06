@@ -11,11 +11,17 @@ function NavBar() {
                     <div className="hamb1"></div>
                 </div>
 
-                <h3>Portfólio</h3>
                 <ul id="listaItemsMenu">
-                    <li>a</li>
-                    <li>v</li>
-                    <li>s</li>
+                    <li>Technologies</li>
+                    <li>About me</li>
+                    <li>Projects</li>
+                </ul>
+
+                <ul id="listaItemsMenu">
+                    <li><i className="bi bi-github"></i></li>
+                    <li><i className="bi bi-linkedin"></i></li>
+                    <li><i className="bi bi-envelope-at-fill"></i></li>
+                    <li><i className="bi bi-telephone-forward-fill"></i></li>
                 </ul>                
             </nav>
             <center>
@@ -23,6 +29,10 @@ function NavBar() {
             </center>
         </>
     )
+
+    window.addEventListener('scroll', () =>{
+        console.log('teste')
+    })
 }
 
 export default NavBar
